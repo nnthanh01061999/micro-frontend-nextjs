@@ -1,0 +1,14 @@
+{
+  "name": "micro-frontend-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "install": "cd ./header && yarn install && cd ../content && yarn install",
+    "dev": "concurrently \"cd header; yarn dev\" \"cd content; yarn dev\" ",
+    "start": "concurrently \"cd header; yarn start\" \"cd content; yarn start\" ",
+    "build": "cd ./header && yarn build && cd ../content && yarn build"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
