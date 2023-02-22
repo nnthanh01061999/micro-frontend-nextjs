@@ -1,0 +1,6 @@
+[submodule "micro-frontend-nextjs-header"]
+	path = micro-frontend-nextjs-header
+	url = https://github.com/nnthanh01061999/micro-frontend-nextjs-header.git
+[submodule "micro-frontend-nextjs-content"]
+	path = micro-frontend-nextjs-content
+	url = https://github.com/nnthanh01061999/micro-frontend-nextjs-content.git

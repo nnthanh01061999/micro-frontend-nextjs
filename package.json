@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "install": "cd ./header && yarn install && cd ../content && yarn install",
-    "dev": "concurrently \"cd header; yarn dev\" \"cd content; yarn dev\" ",
-    "start": "concurrently \"cd header; yarn start\" \"cd content; yarn start\" ",
-    "build": "cd ./header && yarn build && cd ../content && yarn build"
+    "install": "cd ./micro-frontend-nextjs-header && yarn install && cd ../micro-frontend-nextjs-content && yarn install",
+    "dev": "concurrently \"cd micro-frontend-nextjs-header; yarn dev\" \"cd micro-frontend-nextjs-content; yarn dev\" ",
+    "start": "concurrently \"cd micro-frontend-nextjs-header; yarn start\" \"cd micro-frontend-nextjs-content; yarn start\" ",
+    "build": "cd ./micro-frontend-nextjs-header && yarn build && cd ../micro-frontend-nextjs-content && yarn build"
   },
   "dependencies": {
     "concurrently": "^7.6.0"
